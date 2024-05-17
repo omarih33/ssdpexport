@@ -79,6 +79,7 @@ st.title("Squarespace Digital Product Export")
 shop_url = st.text_input("Enter the shop URL")
 currency = st.text_input("Enter the currency")
 google_product_category = st.text_input("Enter the Google product category")
+st.markdown("You can find the appropriate Google Product Category for your products [here](https://productcategory.net/).")
 
 if st.button("Download Digital Product Catalog as CSV"):
     if shop_url:
